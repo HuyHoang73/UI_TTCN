@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bệnh viện đa khoa Tâm Anh</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/doctor.css">
+    <!-- PureCSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+</head>
+
+<body>
+    <header class="header_all">
+        <div class="header">
+            <div class="inner_header">
+                <div class="header_left_logo">
+                    <a href="#">
+                        <img src="./assets/images/logo-ta.png" alt="Tâm Anh hospital">
+                    </a>
+                </div>
+                <div class="header_right">
+                    <div class="header_right_top">
+                        <div class="header_right_online">
+                            <a href="#">
+                                <img src="./assets/images/khám online.png" alt="Khám online">
+                            </a>
+                        </div>
+                        <div class="header_right_hospitalInfor">
+                            <div class="header_right_hanoi">
+                                <a href="#">
+                                    <img src="./assets/images/hanoiInfor.png" alt="Bệnh viện Tâm Anh Hà Nội">
+                                </a>
+                            </div>
+                            <div class="header_right_tphcm">
+                                <a href="#">
+                                    <img src="./assets/images/tphcmInfor.png" alt="Bệnh viện Tâm Anh TP.HCM">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_right_navbar">
+                        <ul class="header_right_list">
+                            <li>
+                                <span class="header_right_icon">
+                                    <a href="#">
+                                        <img src="./assets/images/icon_customer.png" alt="Dành cho khách hàng">
+                                    </a>
+                                </span>
+                                <span class="header_right_text">
+                                    <a href="#">
+                                        Dành cho khách hàng
+                                    </a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="header_right_icon">
+                                    <a href="#">
+                                        <img src="./assets/images/icon_support.png" alt="Hỏi đáp">
+                                    </a>
+                                </span>
+                                <span class="header_right_text">
+                                    <a href="#">
+                                        Hỏi đáp
+                                    </a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="header_right_icon">
+                                    <a href="#">
+                                        <img src="./assets/images/icon_calendar.png" alt="Đặt lịch khám">
+                                    </a>
+                                </span>
+                                <span class="header_right_text">
+                                    <a href="#">
+                                        Đặt lịch khám
+                                    </a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <ul class="navbar_menu">
+                <li><a href="./index.html">Giới thiệu</a></li>
+                <li><a href="./major.html">Chuyên khoa</a></li>
+                <li><a href="./doctor.html">Chuyên gia - Bác sĩ</a></li>
+                <li><a href="#">Thành tựu</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner_area">
+            <div class="banner_area_img">
+                <img src="./assets/images/banner-chuyen-gia-bac-si-desk.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="form_search_area">
+            <div class="inner_form_search_area">
+                <form action="" class="form_search">
+                    <input type="text" class="form_search_input" placeholder="Tìm bác sĩ">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass search_icon"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <p class="section_title">CHUYÊN GIA - BÁC SĨ</p>
+
+        <div class="radio_search_area">
+            <div class="inner_radio_search">
+                <div class="pure-g">
+                    <div class="pure-u-lg-1-3 pure-u-sm-1-4 pure-u-1-8">
+                    </div>
+                    <div class="pure-u-lg-1-3 pure-u-sm-1-2 pure-u-3-4">
+                        <div class="pure-g">
+                            <div class="pure-u-1-3">
+                                <div class="radio_box">
+                                    <input type="radio" id="allsystem" name="doctorarea" value="allsystem" checked>
+                                    <label for="allsystem">Toàn hệ thống</label>
+                                </div>
+                            </div>
+                            <div class="pure-u-1-3">
+                                <div class="radio_box">
+                                    <input type="radio" id="doctorhn" name="doctorarea" value="doctorhn">
+                                    <label for="doctorhn">Hà Nội</label>
+                                </div>
+                            </div>
+                            <div class="pure-u-1-3">
+                                <div class="radio_box">
+                                    <input type="radio" id="doctorhcm" name="doctorarea" value="doctorhcm">
+                                    <label for="doctorhcm">TP.HCM</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pure-u-lg-1-3 pure-u-sm-1-4 pure-u-1-8">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown_search_area">
+            <div class="inner_dropdown_search">
+                <div class="pure-g">
+                    <div class="pure-u-lg-1-12 pure-u-1-24">
+                    </div>
+                    <div class="pure-u-lg-20-24 pure-u-22-24">
+                        <div class="pure-g">
+                            <div class="pure-u-1-4">
+                                <div class="dropdown_box">
+                                    <select name="doctor_major_search" id="doctor_major_search">
+                                        <option value="b" selected disabled>Chuyên khoa</option>
+                                        <option value="timmach">Tim mạch</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="pure-u-1-4">
+                                <div class="dropdown_box">
+                                    <select name="doctor_major_search" id="doctor_major_search">
+                                        <option value="b" selected disabled>Chức vụ</option>
+                                        <option value="timmach">Tim mạch</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="pure-u-1-4">
+                                <div class="dropdown_box">
+                                    <select name="doctor_major_search" id="doctor_major_search">
+                                        <option value="b" selected disabled>Học hàm</option>
+                                        <option value="timmach">Tim mạch</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="pure-u-1-4">
+                                <div class="dropdown_box">
+                                    <select name="doctor_major_search" id="doctor_major_search">
+                                        <option value="b" selected disabled>Học vị</option>
+                                        <option value="timmach">Tim mạch</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pure-u-lg-1-12 pure-u-1-24">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list_doctor_area">
+            <div class="inner_list_doctor">
+                <div class="pure-g">
+                    <div class="pure-u-lg-1-4 pure-u-sm-1-2 pure-u-1-1">
+                        <div class="list_doctor_box">
+                            <div class="list_doctor_item">
+                                <div class="list_doctor_image">
+                                    <img src="./assets/images/bac-si-nguyen-thi-lien-huong-avt.png" alt="">
+                                    <div class="list_doctor_item_hidden">
+                                        <div class="description_hidden">
+                                            <p class="doctor_description2">BS Nguyễn Thị Liên Hương đã có hơn 20 năm kinh nghiệm trong lĩnh vực Mô phôi học. Bên cạnh công tác chuyên môn, bác sĩ Liên Hương còn dành nhiều thời gian cho hoạt động nghiên cứu khoa học và đóng góp nhiều công trình nghiên cứu, bài báo khoa học...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list_doctor_item_body">
+                                    <div class="list_doctor_description">
+                                        <p class="doctor_name">TS.BS.Nguyễn Thị Liên Hương</p>
+                                        <p class="doctor_description1"><i>Phó giám đốc Trung tâm Hỗ trợ sinh sản</i></p>
+                                        <p class="doctor_description1"><i>Bệnh viện Đa khoa Tâm Anh Hà Nội</i></p>
+                                    </div>
+                                </div>
+                                <div class="list_doctor_item_footer">
+                                    <div class="inner_doctor_item_footer">
+                                        <div class="pure-g">
+                                            <div class="pure-u-1-2">
+                                                <button type="button" class="button-blue1">Đặt lịch hẹn</button>
+                                            </div>
+                                            <div class="pure-u-1-2">
+                                                <button type="button" class="button-blue2">Xem chi tiết</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pure-u-lg-1-4 pure-u-sm-1-2 pure-u-1-1">
+                        <div class="list_doctor_box">
+                            <div class="list_doctor_item">
+                                <div class="list_doctor_image">
+                                    <img src="./assets/images/bac-si-nguyen-thi-lien-huong-avt.png" alt="">
+                                    <div class="list_doctor_item_hidden">
+                                        <div class="description_hidden">
+                                            <p class="doctor_description2">BS Nguyễn Thị Liên Hương đã có hơn 20 năm kinh nghiệm trong lĩnh vực Mô phôi học. Bên cạnh công tác chuyên môn, bác sĩ Liên Hương còn dành nhiều thời gian cho hoạt động nghiên cứu khoa học và đóng góp nhiều công trình nghiên cứu, bài báo khoa học...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list_doctor_item_body">
+                                    <div class="list_doctor_description">
+                                        <p class="doctor_name">TS.BS.Nguyễn Thị Liên Hương</p>
+                                        <p class="doctor_description1"><i>Phó giám đốc Trung tâm Hỗ trợ sinh sản</i></p>
+                                        <p class="doctor_description1"><i>Bệnh viện Đa khoa Tâm Anh Hà Nội</i></p>
+                                    </div>
+                                </div>
+                                <div class="list_doctor_item_footer">
+                                    <div class="inner_doctor_item_footer">
+                                        <div class="pure-g">
+                                            <div class="pure-u-1-2">
+                                                <button type="button" class="button-blue1">Đặt lịch hẹn</button>
+                                            </div>
+                                            <div class="pure-u-1-2">
+                                                <button type="button" class="button-blue2">Xem chi tiết</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pure-u-lg-1-4 pure-u-sm-1-2 pure-u-1-1">
+                        <div class="list_doctor_box">
+                            <div class="list_doctor_item">
+                                <div class="list_doctor_image">
+                                    <img src="./assets/images/bac-si-nguyen-thi-lien-huong-avt.png" alt="">
+                                    <div class="list_doctor_item_hidden">
+                                        <div class="description_hidden">
+                                            <p class="doctor_description2">BS Nguyễn Thị Liên Hương đã có hơn 20 năm kinh nghiệm trong lĩnh vực Mô phôi học. Bên cạnh công tác chuyên môn, bác sĩ Liên Hương còn dành nhiều thời gian cho hoạt động nghiên cứu khoa học và đóng góp nhiều công trình nghiên cứu, bài báo khoa học...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list_doctor_item_body">
+                                    <div class="list_doctor_description">
+                                        <p class="doctor_name">TS.BS.Nguyễn Thị Liên Hương</p>
+                                        <p class="doctor_description1"><i>Phó giám đốc Trung tâm Hỗ trợ sinh sản</i></p>
+                                        <p class="doctor_description1"><i>Bệnh viện Đa khoa Tâm Anh Hà Nội</i></p>
+                                    </div>
+                                </div>
+                                <div class="list_doctor_item_footer">
+                                    <div class="inner_doctor_item_footer">
+                                        <div class="pure-g">
+                                            <div class="pure-u-1-2">
+                                                <button type="button" class="button-blue1">Đặt lịch hẹn</button>
+                                            </div>
+                                            <div class="pure-u-1-2">
+                                                <button type="button" class="button-blue2">Xem chi tiết</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="communication">
+            <p class="footer_title">LIÊN HỆ VỚI CHÚNG TÔI</p>
+            <div class="pure-g">
+                <div class="pure-u-md-1-2">
+                    <div class="footer_image">
+                        <img src="./assets/images/communication_left.png" alt="">
+                    </div>
+                </div>
+                <div class="pure-u-md-1-2">
+                    <div class="footer_image">
+                        <img src="./assets/images/communication_right.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_true">
+            <div class="inner_body_section">
+                <div class="pure-g">
+                    <div class="pure-u-md-1-2 pure-u-1-1">
+                        <div class="footer_box">
+                            <p class="footer_text">CÔNG TY CỔ PHẦN BỆNH VIỆN ĐA KHOA TÂM ANH <br />
+                                Số đăng ký kinh doanh: 0102362369 <br />
+                                Cấp bởi Sở kế hoạch và đầu tư Thành phố Hà Nội, đăng ký lần đầu ngày 11 tháng 9 năm 2007
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pure-u-md-1-2 pure-u-1-1">
+                        <div class="footer_box">
+                            <div class="footer_icon_box">
+                                <div class="pure-g">
+                                    <a class="pure-u-1-5"
+                                        href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/tamanhhospitalvn-1663728132">
+                                        <img src="./assets/images/tinnhiemmang.png" alt="">
+                                    </a>
+                                    <a class="pure-u-1-5"
+                                        href="https://www.dmca.com/Protection/Status.aspx?ID=d559761b-d67b-49db-a7b7-8e19686deb81&refurl=https://tamanhhospital.vn/">
+                                        <img src="./assets/images/certificate.png" alt="">
+                                    </a>
+                                    <a class="pure-u-1-5" href="http://online.gov.vn/Home/WebDetails/47911">
+                                        <img src="./assets/images/chungnhan.png" alt="">
+                                    </a>
+                                    <a class="pure-u-1-5" href="https://www.facebook.com/benhvientamanh">
+                                        <img src="./assets/images/i-facebook.png" alt="">
+                                    </a>
+                                    <a class="pure-u-1-5" href="https://www.youtube.com/@benhviendakhoatamanh">
+                                        <img src="./assets/images/i-youtube.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
