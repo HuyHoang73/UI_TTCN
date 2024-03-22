@@ -145,13 +145,20 @@
     justify-content: center;
 }
 
+.doctor_name {
+    font-size: calc(4px + 1vw);
+    text-align: center;
+    color: var(--blue1);
+}
+
 .list_doctor_description {
     width: 90%;
     margin-bottom: 10px;
 }
 
 .doctor_description1 {
-    font-size: 13px;
+    font-size: calc(2px + 1vw);
+    text-align: center;
 }
 
 .list_doctor_item_hidden {
@@ -186,7 +193,7 @@
 }
 
 .list_doctor_item_footer button {
-    padding: 7px 10px;
+    padding: 10px;
     border-radius: 7px;
     color: white;
     cursor: pointer;
@@ -208,7 +215,48 @@
     border: 1px solid var(--blue2);
 }
 
+.button-blue2 a {
+    color: white;
+}
+
 .button-blue2:hover {
     background-color: white;
+}
+
+.button-blue2:hover a {
     color: var(--blue2);
+}
+
+@media screen and (max-width: 900px) {
+    .list_doctor_item_footer button {
+        padding: 5px;
+    }
+
+    .doctor_name {
+        font-size: calc(10px + 1vw);
+        text-align: center;
+        color: var(--blue1);
+    }
+    
+    .doctor_description1 {
+        font-size: calc(5px + 1vw);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .list_doctor_item_footer button {
+        padding: 5px;
+    }
+
+    .doctor_name {
+        font-size: calc(9px + 1vw);
+        text-align: center;
+        color: var(--blue1);
+    }
+    
+    .doctor_description1 {
+        font-size: calc(7px + 1vw);
+        text-align: center;
+    }
 }
