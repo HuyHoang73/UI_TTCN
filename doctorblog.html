@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/doctorblog.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <!-- PureCSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
         integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
@@ -128,8 +129,10 @@
                                     <div class="pure-g">
                                         <div class="pure-u-1-3">
                                             <div class="doctorblog_achievement_item item_first">
-                                                <i class="fa-solid fa-stethoscope doctorblog_achievement_icon text_transition"></i>
-                                                <p class="doctorblog_achievement_description text_transition">Kinh nghiệm
+                                                <i
+                                                    class="fa-solid fa-stethoscope doctorblog_achievement_icon text_transition"></i>
+                                                <p class="doctorblog_achievement_description text_transition">Kinh
+                                                    nghiệm
                                                 </p>
                                                 <p class="doctorblog_achievement_value text_transition">8+</p>
                                             </div>
@@ -138,7 +141,8 @@
                                             <div class="doctorblog_achievement_item item_second text_transition">
                                                 <i
                                                     class="fa-solid fa-user-check doctorblog_achievement_icon text_transition"></i>
-                                                <p class="doctorblog_achievement_description text_transition">Bệnh nhân</p>
+                                                <p class="doctorblog_achievement_description text_transition">Bệnh nhân
+                                                </p>
                                                 <p class="doctorblog_achievement_value text_transition">5K</p>
                                             </div>
                                         </div>
@@ -146,7 +150,8 @@
                                             <div class="doctorblog_achievement_item text_transition">
                                                 <i
                                                     class="fa-solid fa-award doctorblog_achievement_icon text_transition"></i>
-                                                <p class="doctorblog_achievement_description text_transition">Giải thưởng
+                                                <p class="doctorblog_achievement_description text_transition">Giải
+                                                    thưởng
                                                 </p>
                                                 <p class="doctorblog_achievement_value text_transition">6</p>
                                             </div>
@@ -155,8 +160,10 @@
                                 </div>
                             </div>
                             <div class="doctorblog_description">
-                                <p>BS Nguyễn Thị Liên Hương đã có hơn 20 năm kinh nghiệm trong lĩnh vực Mô phôi học. Bên cạnh công tác chuyên môn, bác sĩ Liên Hương còn dành nhiều thời gian cho hoạt động nghiên cứu khoa học và đóng góp nhiều công trình nghiên cứu, bài báo khoa học...</p>
-                                <button type="button">Đặt lịch khám</button>
+                                <p>BS Nguyễn Thị Liên Hương đã có hơn 20 năm kinh nghiệm trong lĩnh vực Mô phôi học. Bên
+                                    cạnh công tác chuyên môn, bác sĩ Liên Hương còn dành nhiều thời gian cho hoạt động
+                                    nghiên cứu khoa học và đóng góp nhiều công trình nghiên cứu, bài báo khoa học...</p>
+                                <button type="button" class="button_show">Đặt lịch khám</button>
                             </div>
                         </div>
                     </div>
@@ -199,7 +206,8 @@
                                     <p class="doctorblog_qualification_bold"><b>Quá trình đào tạo:</b></p>
                                 </div>
                                 <div class="pure-u-2-3">
-                                    <p class="doctorblog_qualification_none">1990 – 1996: Bác sĩ Đa khoa – Đại học Y Hà Nội</p>
+                                    <p class="doctorblog_qualification_none">1990 – 1996: Bác sĩ Đa khoa – Đại học Y Hà
+                                        Nội</p>
                                 </div>
                             </div>
                         </div>
@@ -217,6 +225,227 @@
                 </div>
             </div>
         </div>
+
+        <!-- Form -->
+        <div class="form_hidden">
+            <div class="pure-g">
+                <div class="extra_div pure-u-lg-7-24 pure-u-md-4-24"></div>
+                <div class="pure-u-lg-10-24 pure-u-md-16-24 pure-u-1-1">
+                    <form class="booking_register_form">
+                        <div class="form_header">
+                            <p class="form_title">ĐĂNG KÝ KHÁM BỆNH</p>
+                            <button class="button_exit" type="button"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <div class="form_body">
+                            <!-- Hàng đầu trong form (họ tên + ngày sinh) -->
+                            <div class="pure-g">
+                                <div class="pure-u-1-1 pure-u-sm-1-2">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Họ và tên
+                                        </p>
+                                        <input class="form_input_text_1" type="text" name="name" id="name"
+                                            placeholder="Nhập họ và tên" required>
+                                    </div>
+                                </div>
+                                <div class="pure-u-1-1 pure-u-sm-1-2">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Ngày sinh
+                                        </p>
+                                        <input class="form_input_text_1" type="date" name="dateOfBirth" id="dateOfBirth"
+                                            placeholder="Chọn ngày sinh" required>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Hàng 2 trong form (sđt + email) -->
+                            <div class="pure-g">
+                                <div class="pure-u-1-1 pure-u-sm-1-2">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Số điện
+                                            thoại</p>
+                                        <input class="form_input_text_1" type="text" name="phone" id="phone"
+                                            placeholder="Nhập số điện thoại" required>
+                                    </div>
+                                </div>
+
+                                <div class="pure-u-1-1 pure-u-sm-1-2">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Email</p>
+                                        <input class="form_input_text_1" type="email" name="email" id="email"
+                                            placeholder="Nhập email" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Hàng 3 trong form(giới tinh + quốc tịch) -->
+                            <div class="pure-g">
+                                <div class="pure-u-1-1 pure-u-sm-1-2">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Họ và tên
+                                        </p>
+                                        <div class="form_radio pure-g">
+                                            <div class="pure-u-1-1 pure-u-sm-1-2">
+                                                <input type="radio" id="male" name="sex" value="male" required>
+                                                <label for="male">Nam</label>
+                                            </div>
+                                            <div class="pure-u-1-1 pure-u-sm-1-2">
+                                                <input type="radio" id="female" name="sex" value="female" required>
+                                                <label for="female">Nữ</label><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pure-u-1-1 pure-u-sm-1-2">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Quốc tịch
+                                        </p>
+                                        <select name="country" id="country" class="dropdown">
+                                            <option value="" disabled selected hidden>Chọn quốc tịch
+                                            </option>
+                                            <option>Việt Nam</option>
+                                            <option>Nga</option>
+                                            <option>Mỹ</option>
+                                            <option>Anh</option>
+                                            <option>Lào</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Hàng 4 trong form(tỉnh, quận, xã) -->
+                            <div class="pure-g">
+                                <div class="pure-u-1-1 pure-u-sm-1-3">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Tỉnh thành
+                                        </p>
+                                        <select name="city" id="city" class="dropdown dropdown_custom">
+                                            <option value="" disabled selected hidden>Tỉnh thành</option>
+                                            <option>Hà Nội</option>
+                                            <option>TP Hồ Chí Minh</option>
+                                            <option>Hải Phòng</option>
+                                            <option>Đà Nẵng</option>
+                                            <option>Huế</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="pure-u-1-1 pure-u-sm-1-3">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Quận huyện
+                                        </p>
+                                        <select name="district" id="district" class="dropdown dropdown_custom">
+                                            <option value="" disabled selected hidden>Quận huyện</option>
+                                            <option>Bắc Từ Liêm</option>
+                                            <option>Ba Đình</option>
+                                            <option>Hai Ba Trưng</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="pure-u-1-1 pure-u-sm-1-3">
+                                    <div class="form_element">
+                                        <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                                    style="color: red; font-size: 7px;"></i></sup>Xã phường
+                                        </p>
+                                        <select name="ward" id="ward" class="dropdown dropdown_custom">
+                                            <option value="" disabled selected hidden>Xã phường</option>
+                                            <option>Cổ Nhuế 2</option>
+                                            <option>Cổ Nhuế 1</option>
+                                            <option>Minh Khai</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Hàng 5(dịch vụ) -->
+                            <div class="form_element">
+                                <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                            style="color: red; font-size: 7px;"></i></sup>Chọn loại dịch vụ
+                                    khám </p>
+                                <div class="form_radio pure-g">
+                                    <div class="pure-u-1-1 pure-u-sm-1-2">
+                                        <input type="radio" id="ontime" name="time" value="ontime" required>
+                                        <label for="ontime">Khám trong giờ</label>
+                                    </div>
+                                    <div class="pure-u-1-1 pure-u-sm-1-2">
+                                        <input type="radio" id="overtime" name="time" value="overtime" required>
+                                        <label for="overtime">Khám ngoài giờ</label><br>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Hàng 6 (Khoa) -->
+                            <div class="form_element">
+                                <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                            style="color: red; font-size: 7px;"></i></sup>Chọn chuyên khoa
+                                </p>
+                                <div class="form_dropdown">
+                                    <select class="dropdown" required>
+                                        <option value="" disabled selected hidden>Chọn chuyên khoa</option>
+                                        <option>CK Chấn thương chỉnh hình</option>
+                                        <option>CK Cơ xương khớp</option>
+                                        <option>CK Cơ xương khớp</option>
+                                        <option>CK Cơ xương khớp</option>
+                                        <option>CK Cơ xương khớp</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Hàng 7(Bác sĩ) -->
+                            <div class="form_element">
+                                <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                            style="color: red; font-size: 7px;"></i></sup>Chọn bác sĩ </p>
+                                <div class="form_dropdown">
+                                    <select class="dropdown" required>
+                                        <option>Bác sĩ A</option>
+                                        <option>Bác sĩ B</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Hàng 8(Lịch) -->
+                            <div class="form_element">
+                                <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                            style="color: red; font-size: 7px;"></i></sup> Chọn ngày muốn
+                                    thăm khám</p>
+                                <div class="form_pickdate">
+                                    <input class="form_input_text_2" type="date" required>
+                                </div>
+                            </div>
+
+                            <!-- Hàng 9(mô tả) -->
+                            <div class="form_element">
+                                <p class="form_lable"><sup><i class="fa-solid fa-asterisk"
+                                            style="color: red; font-size: 7px;"></i></sup>Nhập ván đề sức
+                                    khỏe cần thăm khám</p>
+                                <div class="form_textarea">
+                                    <textarea name="reason" id="reason" rows="5" required
+                                        placeholder="Nhập tình trạng sức khỏe của bạn"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Hàng 10(nút) -->
+                            <div class="form_element">
+                                <div class="outer_form_button">
+                                    <button type="submit" class="form_button">Đặt lịch hẹn</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="background_form"></div>
     </main>
 
     <footer class="footer">
@@ -276,6 +505,21 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var form = document.querySelector(".form_hidden");
+        var buttonShow = document.querySelector(".button_show");
+        var buttonExit = document.querySelector(".button_exit");
+        var background = document.querySelector(".background_form")
+        buttonShow.onclick = function () {
+            form.classList.toggle("show");
+            background.classList.toggle("show1");
+        }
+        buttonExit.onclick = function () {
+            form.classList.remove("show");
+            background.classList.remove("show1");
+        }
+    </script>
 </body>
 
 </html>
